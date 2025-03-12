@@ -1,0 +1,42 @@
+/* General Page Styling */
+body { 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    padding: 20px; 
+    background: #f4f4f4; 
+}
+
+/* Page Title */
+h2 { 
+    font-size: 24px;
+    color: #333; 
+    margin-bottom: 20px;
+}
+
+/* Payment Section */
+.payment-section { 
+    margin: 20px auto; 
+    width: 80%; 
+    max-width: 400px; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    background: white; 
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Account Details */
+.account-details { 
+    font-size: 18px; 
+    margin: 10px 0; 
+    color: #222; 
+    font-weight: bold;
+}
+
+/* Bank Info */
+.bank-info {
+    font-size: 16px;
+    color: #555;
+}
+

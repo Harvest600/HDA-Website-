@@ -1,6 +1,6 @@
 /* General Page Styling */
 body { 
-    font-family: Arial, sans-serif; 
+    font-family: Arial bold, sans-serif; 
     text-align: center; 
     padding: 20px; 
     background: #f4f4f4; 
@@ -8,8 +8,8 @@ body {
 
 /* Page Title */
 h2 { 
-    font-size: 24px;
-    color: #333; 
+    font-size: 25px;
+    color: #335; 
     margin-bottom: 20px;
 }
 

@@ -40,3 +40,20 @@ h2 {
     color: #555;
 }
 
+
+/* Copy Button Styling */
+.copy-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.copy-btn:hover {
+    background-color: #0056b3;
+}
+

@@ -11,13 +11,25 @@
     <h2>FOR YOUR GIFTS, SEEDS, TITHE, OFFERINGS OR SUPPORTS</h2>
 
     <div class="payment-section">
-        <p class="account-details"><strong>Moniepoint:</strong> 5468686057</p>
+        <p class="account-details"><strong>Moniepoint:</strong> <span id="moniepoint">5468686057</span></p>
         <p class="bank-info"><strong>Harvest Deliverance Assembly</strong></p>
-        
-        <p class="account-details"><strong>Palmpay:</strong> 7034602642</p>
+        <button class="copy-btn" onclick="copyToClipboard('moniepoint')">Copy</button>
+
+        <p class="account-details"><strong>Palmpay:</strong> <span id="palmpay">7034602642</span></p>
         <p class="bank-info"><strong>Ejaife Erhirhi</strong></p>
+        <button class="copy-btn" onclick="copyToClipboard('palmpay')">Copy</button>
     </div>
+
+    <script>
+        function copyToClipboard(id) {
+            var text = document.getElementById(id).innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                alert("Copied: " + text);
+            }).catch(err => {
+                console.error("Failed to copy:", err);
+            });
+        }
+    </script>
 
 </body>
 </html>
-

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* General Reset */ * { margin: 
     0; padding: 0; box-sizing: 
     border-box; font-family: 
@@ -91,3 +92,111 @@ button:hover { background:
     background: #ff8c00; 
     border-radius: 6px;
 }
+=======
+/* General Adjustments */
+body {
+    line-height: 1.8; /* Improves readability */
+}
+
+/* Adjust letter and word spacing for better readability */
+p {
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+/* Increase spacing between sections */
+section {
+    margin-bottom: 30px; /* More spacing between sections */
+}
+
+/* Header */
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 3px 3px 8px gold;
+    background: linear-gradient(to right, purple, gold);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Social Media Handles */
+.social-media a {
+    color: darkblue;
+    text-decoration: underline;
+    font-weight: bold;
+    letter-spacing: 1px; /* Adds spacing between letters */
+    word-spacing: 2px; /* Adds spacing between words */
+    transition: color 0.3s ease-in-out;
+}
+
+.social-media a:hover {
+    color: lightpurple;
+}
+
+/* Bishop Image */
+.bishop img {
+    width: 150px; /* Reduced size for better fit */
+    height: auto;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+/* Donation Button */
+.donate-button {
+    display: inline-block;
+    background: linear-gradient(to right, gold, orange);
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* Good News Section */
+.good-news {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    background: linear-gradient(to right, orange, yellow);
+    border-radius: 10px;
+}
+
+.good-news h2 {
+    font-size: 28px;
+    text-shadow: 3px 3px 8px gold;
+}
+
+.good-news .theme {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, red, purple);
+    padding: 10px;
+    border-radius: 8px;
+    text-shadow: 4px 4px 10px black;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    0% { text-shadow: 0 0 5px gold; }
+    100% { text-shadow: 0 0 15px white; }
+}
+
+/* General Text Adjustments */
+.text-content {
+    letter-spacing: 1.5px;
+    word-spacing: 4px;
+    text-align: justify;
+}
+>>>>>>> 6e9f438 (Updated website with latest changes)

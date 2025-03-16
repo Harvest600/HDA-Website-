@@ -26,7 +26,7 @@
             button.addEventListener("click", function () {
                 const accountNumber = this.getAttribute("data-account");
                 navigator.clipboard.writeText(accountNumber).then(() => {
-                    alert("Account Number Copied: " + accountNumber);
+                    alert(" Copied: " + accountNumber);
                 }).catch(err => {
                     console.error("Failed to copy: ", err);
                 });

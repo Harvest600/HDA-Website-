@@ -66,9 +66,9 @@ Welcome Title */ .welcome-title
 </div>
 {
 /* Bishop Section */ 
-.bishop-section img {
-    width: 150px; 
-    border-radius: 10px;
+.bishop-picture {
+    width: 80px; /* Adjust this size */
+    border-radius: 5px;
 }
 .bishop-text { font-size: 1em; 
     margin-top: 10px;

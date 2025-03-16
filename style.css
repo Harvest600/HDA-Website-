@@ -196,12 +196,3 @@ body {
     line-height: 1.8; /* Adjusts spacing between each service */
     margin-bottom: 20px; /* Adds extra space between sections */
 }
-.header-logo {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 120px; /* Adjust as needed */
-    height: auto;
-    z-index: 10;
-}

@@ -56,8 +56,8 @@ Welcome Title */ .welcome-title
     border-radius: 8px; width: 
     60%; margin: 15px auto;
 }
-.theme-text { font-size: 1.3em; 
-    font-weight: bold; color: 
+.theme-text { font-size: 1.5em; 
+    font-weight:extra  bold; color: 
     yellow;
 }
 /* Bishop Section */ 

@@ -1,215 +1,103 @@
-/* General Styling */
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background: linear-gradient(to bottom, #f3e5f5, #d1c4e9); /* Holy spiritual gradient */
-    color: black;
-    margin: 0;
-    padding: 0;
+body { font-family: Arial, 
+    sans-serif; background: 
+    linear-gradient(to bottom, 
+    #ffffff, #d9b3ff);
+    text-align: center; margin: 
+    0; padding: 0;
 }
-
-/* Header Styling */
-.header {
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #8e44ad;
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
-    margin: 20px 0;
+/* Header Logo */ .header-logo 
+img {
+    width: 100%; max-width: 
+    250px; display: block; 
+    margin: 10px auto;
 }
-.header  {
-    text-align: center;
-    padding-top: 10px; /* Add some spacing from the top */
+/* Corner Logos */ 
+.corner-logos img {
+    position: absolute; width: 
+    50px; top: 10px;
 }
-
-.header-logo { display: block;} 
-    width: 100%; /* Ensures it 
-    fits the width of the 
-    screen */ max-width: 300px; 
-    /* Adjust this to control 
-    the size *//* Highlighted 
-    Text */ height: 
-    auto;.highlight-3d { 
-    font-size: 22px; 
+.top-left { left: 10px; } 
+.top-right { right: 10px; } /* 
+Welcome Title */ .welcome-title 
+{
+    font-size: 2em; 
     font-weight: bold; color: 
-    #8e44ad; text-shadow: 4px 
-    4px 7px rgba(0, 0, 0, 0.3); 
-    margin: 0 auto; /* Centers 
-    it */}
+    #6a0dad;
+    text-shadow: 2px 2px 
+    #ffcc00;
 }
-/* Good News Section */
-.good-news {
-    background: #f8e6ff;
-    padding: 15px;
-    margin: 20px auto;
-    border-radius: 10px;
-    width: 80%;
-    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
-}
-
-/* Box Highlight */
-.box-highlight {
-    background: linear-gradient(to right, #6a1b9a, #9c27b0);
-    color: white;
-    padding: 10px;
+/* Sections */ .section-title { 
+    font-size: 1.5em; 
+    font-weight: bold; color: 
+    #6a0dad;
+}7
+/* Highlighted Text */ 
+.highlighted {
+    font-weight: bold;
+    color: white; /* White text for contrast */
+    background: linear-gradient(to right, #ff4500, #ffcc00); /* Darker orange to bright gold */
+    padding: 8px;
     border-radius: 5px;
-}
-
-/* THEME Highlight Box */
-.theme-highlight {
-    background: #4a148c;
-    color: white;
-    font-size: 26px;
-    font-weight: bold;
-    padding: 15px;
-    border-radius: 8px;
-    width: 90%;
-    margin: 20px auto;
-    text-transform: uppercase;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-}
-
-/* Animated Theme */
-@keyframes flashy {
-    0% { color: #fff; text-shadow: 0px 0px 5px #ff0; }
-    50% { color: #ffeb3b; text-shadow: 0px 0px 20px #ff0; }
-    100% { color: #fff; text-shadow: 0px 0px 5px #ff0; }
-}
-.animated-theme {
-    animation: flashy 1.5s infinite alternate;
-}
-
-/* Bishop Section */
-.bishop {
-    margin-top: 50px;
-}
-.bishop-picture {
-    width: 150px; /* Adjust size */
-    height: auto;
-    display: block;
-    margin: 20px auto; /* Center the image and add spacing */
-}
-.bishop-text {
-    font-size: 16px;
-    font-weight: bold;
-}
-
-/* Extra Space After Bishop */
-.spacer {
-    height: 50px;
-}
-
-/* Social Media Styling */
-.social-media {
-    list-style: none;
-    padding: 0;
-}
-.social-media li {
-    margin-bottom: 15px;
-    font-size: 18px;
-    font-weight: bold;
-    color: black;
-}
-.social-media a {
-    color: #6a1b9a;
-    text-decoration: none;
-}
-.social-media a:hover {
-    text-decoration: underline;
-}
-
-/* Donation Button */
-.donate-btn {
-    background: #d35400;
-    color: white;
-    padding: 14px 22px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    font-size: 20px;
     display: inline-block;
-    animation: pulse 1.5s infinite;
- /* Adjust for more spacing */
-}}
-@keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.1); }
-    100% { transform: scale(1); }
+    font-size: 1.2em;
 }
-.stay {
-    background: linear-gradient(to right, #ff5733, #ff8c42, #ff5733); /* Fiery gradient */
-    color: white;
-    font-size: 22px;
-    font-weight: bold;
-    padding: 12px;
-    text-align: center;
-    border-radius: 12px;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-    animation: bounce 1.5s infinite alternate;
+    
 }
-
-@keyframes bounce {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
+/* Good News Box */ .good-news 
+{
+    background: #f3e5f5; 
+    padding: 15px; 
+    border-radius: 10px; width: 
+    80%; margin: 20px auto;
 }
-
-.welcome-box {
-    background: linear-gradient(to right, #ffd700, #fffacd, #ffd700); /* Gold effect */
-    padding: 15px;
+.theme-box { background: 
+    #240090;
+    padding: 10px; 
+    border-radius: 8px; width: 
+    60%; margin: 15px auto;
+}
+.theme-text { font-size: 1.3em; 
+    font-weight: bold; color: 
+    yellow;
+}
+/* Bishop Section */ 
+.bishop-section img {
+    width: 150px; 
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    text-align: center;
-    font-size: 24px;
+}
+.bishop-text { font-size: 1em; 
+    margin-top: 10px;
+}
+/* Social Media */ 
+.social-media h3 {
+    font-size: 1.5em; 
+    font-weight: bold; color: 
+    #6a0dad;
+}
+.social-media p { font-size: 
+    1.1em; font-weight: bold;
+}
+/* Donation Button */ .donation 
+{
+    background: #ff6600; 
+    padding: 15px; 
+    border-radius: 8px; width: 
+    80%; margin: 30px auto;
+}
+.donation-text { color: white; 
+    font-size: 1.2em; 
     font-weight: bold;
-    text-transform: uppercase;
-    color: #5b0088; /* Deep purple for contrast */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    animation: glowEffect 1.5s infinite alternate;
- /* Adds space below */
 }
-
-@keyframes glowEffect {
-    from {
-        text-shadow: 2px 2px 10px rgba(255, 223, 0, 0.8);
-    }
-    to {
-        text-shadow: 2px 2px 20px rgba(255, 223, 0, 1);
-    }
+/* Spacing Fix: Between 
+Donation and Stay Connected */ 
+.donation {
+    margin-bottom: 80px;
 }
-.welcome-box {
-    margin-bottom: 20px; /* Adds space below */
-
-}
-.offerings-section { 
-    margin-bottom: 80px; /* 
-    Creates 5 line spaces of 
-    gap */
-
-}.service-time {
-    font-weight: bold; 
-    background: 
-    linear-gradient(to right, 
-    #8a2be2, #ffcc00); /* 
-    Adjust to a spiritual theme 
-    */ -webkit-background-clip: 
-    text; 
-    -webkit-text-fill-color: 
-    transparent; display: 
-    block; margin-top: 10px; /* 
-    Adds spacing between 
-    services */
-}
-
-.theme-box {
-    margin-top: -20px; /* Moves it closer */
-}
-
-.all-night-text {
-    font-size: 1.2em; /* Increase size */
-    font-weight: bold;
+/* Stay Connected */ 
+.stay-connected h2 {
+    font-size: 1.5em; 
+    font-weight: bold; color: 
+    #6a0dad;
+    text-shadow: 2px 2px 
+    #ffcc00;
 }

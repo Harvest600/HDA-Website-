@@ -17,40 +17,26 @@ body {
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
     margin: 20px 0;
 }
-.header2  {
+.header  {
     text-align: center;
     padding-top: 10px; /* Add some spacing from the top */
 }
 
-.header-logo {
-    width: 120px; /* Adjust the size */
-    height: auto;
-    display: block;
-    margin: 20px auto;/* Center the image and add spacing */
+.header-logo { display: block;} 
+    width: 100%; /* Ensures it 
+    fits the width of the 
+    screen */ max-width: 300px; 
+    /* Adjust this to control 
+    the size *//* Highlighted 
+    Text */ height: 
+    auto;.highlight-3d { 
+    font-size: 22px; 
+    font-weight: bold; color: 
+    #8e44ad; text-shadow: 4px 
+    4px 7px rgba(0, 0, 0, 0.3); 
+    margin: 0 auto; /* Centers 
+    it */}
 }
-.sub-header {
-    font-size: 24px;
-    font-weight: bold;
-    color: #6a1b9a;
-    margin-bottom: 10px;
-}
-
-/* Church Info */
-.church-info {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 30px;
-    color: #7b1fa2;
-}
-
-/* Highlighted Text */
-.highlight-3d {
-    font-size: 22px;
-    font-weight: bold;
-    color: #8e44ad;
-    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3);
-}
-
 /* Good News Section */
 .good-news {
     background: #f8e6ff;
@@ -204,7 +190,26 @@ body {
     Creates 5 line spaces of 
     gap */
 
-}.activities {
-    line-height: 1.8; /* Adjusts spacing between each service */
-    margin-bottom: 20px; /* Adds extra space between sections */
+}.service-time {
+    font-weight: bold; 
+    background: 
+    linear-gradient(to right, 
+    #8a2be2, #ffcc00); /* 
+    Adjust to a spiritual theme 
+    */ -webkit-background-clip: 
+    text; 
+    -webkit-text-fill-color: 
+    transparent; display: 
+    block; margin-top: 10px; /* 
+    Adds spacing between 
+    services */
+}
+
+.theme-box {
+    margin-top: -20px; /* Moves it closer */
+}
+
+.all-night-text {
+    font-size: 1.2em; /* Increase size */
+    font-weight: bold;
 }

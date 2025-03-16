@@ -100,14 +100,14 @@ Donation and Stay Connected */
 }
 /* Stay Connected */ 
 .stay-connected h2 {
-    font-size: 1.5em; 
+    font-size: 1.0em; 
     font-weight: bold; color: 
     #6a0dad;
-    text-shadow: 2px 2px 
+    text-shadow: 4px 4px 
     #ffcc00;
 }
 .donation-link {
-    font-weight: bold;
+    font-weight: extra  bold;
     color: white;
     background: linear-gradient(to right, #ff4500, #ffcc00);
     padding: 10px 15px;

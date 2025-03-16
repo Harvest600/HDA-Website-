@@ -131,7 +131,8 @@ body {
     font-size: 20px;
     display: inline-block;
     animation: pulse 1.5s infinite;
-}
+ /* Adjust for more spacing */
+}}
 @keyframes pulse {
     0% { transform: scale(1); }
     50% { transform: scale(1.1); }
@@ -171,6 +172,7 @@ body {
     color: #5b0088; /* Deep purple for contrast */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     animation: glowEffect 1.5s infinite alternate;
+ /* Adds space below */
 }
 
 @keyframes glowEffect {
@@ -180,4 +182,16 @@ body {
     to {
         text-shadow: 2px 2px 20px rgba(255, 223, 0, 1);
     }
+}
+.welcome-box {
+    margin-bottom: 20px; /* Adds space below */
+
+}
+.offerings-section {
+    margin-bottom: 30px; /* 
+    Adjust for more spacing */
+}
+.activities {
+    line-height: 1.8; /* Adjusts spacing between each service */
+    margin-bottom: 20px; /* Adds extra space between sections */
 }

@@ -17,7 +17,17 @@ body {
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
     margin: 20px 0;
 }
+.header2  {
+    text-align: center;
+    padding-top: 10px; /* Add some spacing from the top */
+}
 
+.header-logo {
+    width: 100px; /* Adjust the size */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 .sub-header {
     font-size: 24px;
     font-weight: bold;
@@ -88,8 +98,10 @@ body {
     margin-top: 50px;
 }
 .bishop-picture {
-    width: 150px;
-    border-radius: 5px;
+    width: 150px; /* Adjust size */
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Center the image and add spacing */
 }
 .bishop-text {
     font-size: 16px;

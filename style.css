@@ -101,3 +101,17 @@ Donation and Stay Connected */
     text-shadow: 2px 2px 
     #ffcc00;
 }
+.donation-link {
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, #ff4500, #ffcc00);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.donation-link:hover {
+    background: linear-gradient(to right, #cc3700, #e6b800);
+}

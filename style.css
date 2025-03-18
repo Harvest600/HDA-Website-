@@ -1,113 +1,152 @@
-body { font-family: Arial, 
-    sans-serif; background: 
-    linear-gradient(to bottom, 
-    #ffffff, #d9b3ff);
-    text-align: center; margin: 
-    0; padding: 0;
+/* General Page Styling */
+body { 
+    font-family: Arial, sans-serif; 
+    background: linear-gradient(to bottom, #ffffff, #d9b3ff);
+    text-align: center; 
+    margin: 0; 
+    padding: 0;
 }
-/* Header Logo */ .header-logo 
-img {
-    width: 100%; max-width: 
-    250px; display: block; 
+
+/* Header Logo */
+.header-logo img {
+    width: 100%;
+    max-width: 250px; 
+    display: block; 
     margin: 10px auto;
 }
-/* Corner Logos */ 
+
+/* Corner Logos */
 .corner-logos img {
-    position: absolute; width: 
-    50px; top: 10px;
+    position: absolute; 
+    width: 50px; 
+    top: 10px;
 }
+
 .top-left { left: 10px; } 
-.top-right { right: 10px; } /* 
-Welcome Title */ .welcome-title 
-{
+.top-right { right: 10px; } 
+
+/* Welcome Title */
+.welcome-title {
     font-size: 2em; 
-    font-weight: bold; color: 
-    #6a0dad;
-    text-shadow: 2px 2px 
-    #ffcc00;
+    font-weight: bold; 
+    color: #6a0dad;
+    text-shadow: 2px 2px #ffcc00;
 }
-/* Sections */ .section-title { 
+
+/* Sections */
+.section-title { 
     font-size: 1.5em; 
-    font-weight: bold; color: 
-    #6a0dad;
-}7
-/* Highlighted Text */ 
+    font-weight: bold; 
+    color: #6a0dad;
+}
+
+/* Highlighted Text */
 .highlighted {
     font-weight: bold;
-    color: white; /* White text for contrast */
-    background: linear-gradient(to right, #ff4500, #ffcc00); /* Darker orange to bright gold */
+    color: white; 
+    background: linear-gradient(to right, #ff4500, #ffcc00);
     padding: 8px;
     border-radius: 5px;
     display: inline-block;
     font-size: 1.2em;
 }
-    
-}
-/* Good News Box */ .good-news 
-{
+
+/* Good News Box */
+.good-news {
     background: #f3e5f5; 
     padding: 15px; 
-    border-radius: 10px; width: 
-    80%; margin: 20px auto;
+    border-radius: 10px; 
+    width: 80%; 
+    margin: 20px auto;
 }
-.theme-box { background: 
-    #240090;
+
+/* Theme Box */
+.theme-box { 
+    background: #240090;
     padding: 10px; 
-    border-radius: 8px; width: 
-    60%; margin: 15px auto;
+    border-radius: 8px; 
+    width: 60%; 
+    margin: 15px auto;
 }
-.theme-text { font-size: 1.5em; 
-    font-weight:  bold; color: 
-    yellow;
-<div class="theme-box"> <p 
-    class="theme-text">THEME: 
-    THIS HANDSOME MAN MUST HAVE 
-    SOME</p> 
-</div>
-{
-/* Bishop Section */ 
+
+/* THEME: "THIS HANDSOME MAN MUST HAVE SOME" */
+.theme-text { 
+    font-size: 2em; /* Bigger and bolder */
+    font-weight: 900; /* Strong bold effect */
+    color: yellow;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Bishop Section */
+.bishop-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
 .bishop-picture {
-    width: 80px; /* Adjust this size */
+    width: 80px; /* Reduced size */
+    max-width: 100%;
     border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
-.bishop-text { font-size: 1em; 
+
+.bishop-text { 
+    font-size: 1em; 
     margin-top: 10px;
 }
-/* Social Media */ 
+
+/* Social Media */
 .social-media h3 {
     font-size: 1.5em; 
-    font-weight: bold; color: 
-    #6a0dad;
+    font-weight: bold; 
+    color: #6a0dad;
 }
-.social-media p { font-size: 
-    1.1em; font-weight: bold;
+
+.social-media p { 
+    font-size: 1.1em; 
+    font-weight: bold;
 }
-/* Donation Button */ .donation 
-{
+
+/* Donation Section */
+.donation {
     background: #ff6600; 
     padding: 15px; 
-    border-radius: 8px; width: 
-    80%; margin: 30px auto;
+    border-radius: 8px; 
+    width: 80%; 
+    margin: 30px auto;
 }
-.donation-text { color: white; 
+
+.donation-text { 
+    color: white; 
     font-size: 1.2em; 
     font-weight: bold;
 }
-/* Spacing Fix: Between 
-Donation and Stay Connected */ 
-.donation {
-    margin-bottom: 80px;
+
+/* Copy Buttons Styling */
+.copy-btn {
+    background: linear-gradient(to right, #ff4500, #ffcc00);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
 }
-/* Stay Connected */ 
-.stay-connected h2 {
-    font-size: 1.0em; 
-    font-weight: bold; color: 
-    #6a0dad;
-    text-shadow: 4px 4px 
-    #ffcc00;
+
+.copy-btn:hover {
+    background: linear-gradient(to right, #cc3700, #e6b800);
+    transform: scale(1.05);
 }
+
+.copy-btn:active {
+    transform: scale(0.95);
+}
+
+/* Donation Link */
 .donation-link {
-    font-weight: extra  bold;
+    font-weight: bold;
     color: white;
     background: linear-gradient(to right, #ff4500, #ffcc00);
     padding: 10px 15px;
@@ -119,4 +158,17 @@ Donation and Stay Connected */
 
 .donation-link:hover {
     background: linear-gradient(to right, #cc3700, #e6b800);
+}
+
+/* Spacing Fix: Between Donation and Stay Connected */
+.donation {
+    margin-bottom: 80px;
+}
+
+/* Stay Connected */
+.stay-connected h2 {
+    font-size: 1.0em; 
+    font-weight: bold; 
+    color: #6a0dad;
+    text-shadow: 4px 4px #ffcc00;
 }

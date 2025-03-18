@@ -1,83 +1,26 @@
 /* General Page Styling */
 body { 
     font-family: Arial, sans-serif; 
-    background: linear-gradient(to bottom, #ffffff, #d9b3ff);
+    background: linear-gradient(to bottom, #ffffff, #e0c3fc);
     text-align: center; 
     margin: 0; 
     padding: 0;
 }
 
-/* Header Logo */
-.header-logo img {
-    width: 100%;
-    max-width: 250px; 
-    display: block; 
-    margin: 10px auto;
-}
-
-/* Corner Logos */
-.corner-logos img {
-    position: absolute; 
-    width: 50px; 
-    top: 10px;
-}
-
-.top-left { left: 10px; } 
-.top-right { right: 10px; } 
-
-/* Welcome Title */
-.welcome-title {
-    font-size: 2em; 
-    font-weight: bold; 
-    color: #6a0dad;
-    text-shadow: 2px 2px #ffcc00;
-}
-
-/* Sections */
-.section-title { 
-    font-size: 1.5em; 
-    font-weight: bold; 
-    color: #6a0dad;
-}
-
-/* Highlighted Text */
-.highlighted {
+/* Welcome Box Highlight */
+.welcome-box {
+    background-color: #ffdd57;
+    color: #000;
     font-weight: bold;
-    color: white; 
-    background: linear-gradient(to right, #ff4500, #ffcc00);
-    padding: 8px;
-    border-radius: 5px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
     display: inline-block;
-    font-size: 1.2em;
+    font-size: 24px;
+    margin-top: 20px;
 }
 
-/* Good News Box */
-.good-news {
-    background: #f3e5f5; 
-    padding: 15px; 
-    border-radius: 10px; 
-    width: 80%; 
-    margin: 20px auto;
-}
-
-/* Theme Box */
-.theme-box { 
-    background: #240090;
-    padding: 10px; 
-    border-radius: 8px; 
-    width: 60%; 
-    margin: 15px auto;
-}
-
-/* THEME: "THIS HANDSOME MAN MUST HAVE SOME" */
-.theme-text { 
-    font-size: 2em; /* Bigger and bolder */
-    font-weight: 900; /* Strong bold effect */
-    color: yellow;
-    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
-}
-
-/* Bishop Section */
+/* Bishop's Picture - Reduced Size & No Overlay */
 .bishop-section {
     margin-top: 20px;
     text-align: center;
@@ -95,34 +38,23 @@ body {
     margin-top: 10px;
 }
 
-/* Social Media */
-.social-media h3 {
-    font-size: 1.5em; 
-    font-weight: bold; 
-    color: #6a0dad;
-}
-
-.social-media p { 
-    font-size: 1.1em; 
-    font-weight: bold;
-}
-
-/* Donation Section */
-.donation {
-    background: #ff6600; 
-    padding: 15px; 
+/* THEME: "THIS HANDSOME MAN MUST HAVE SOME" */
+.theme-box { 
+    background: #240090;
+    padding: 10px; 
     border-radius: 8px; 
-    width: 80%; 
-    margin: 30px auto;
+    width: 60%; 
+    margin: 15px auto;
 }
 
-.donation-text { 
-    color: white; 
-    font-size: 1.2em; 
-    font-weight: bold;
+.theme-text { 
+    font-size: 2em; /* Bigger and bolder */
+    font-weight: 900; /* Strong bold effect */
+    color: yellow;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.6);
 }
 
-/* Copy Buttons Styling */
+/* Copy Buttons - Improved Design */
 .copy-btn {
     background: linear-gradient(to right, #ff4500, #ffcc00);
     color: white;
@@ -144,31 +76,49 @@ body {
     transform: scale(0.95);
 }
 
-/* Donation Link */
-.donation-link {
-    font-weight: bold;
-    color: white;
-    background: linear-gradient(to right, #ff4500, #ffcc00);
-    padding: 10px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
-    transition: 0.3s;
-}
-
-.donation-link:hover {
-    background: linear-gradient(to right, #cc3700, #e6b800);
-}
-
-/* Spacing Fix: Between Donation and Stay Connected */
+/* Donation Section */
 .donation {
-    margin-bottom: 80px;
+    background: #ff6600; 
+    padding: 15px; 
+    border-radius: 8px; 
+    width: 80%; 
+    margin: 30px auto;
 }
 
-/* Stay Connected */
+.donation-text { 
+    color: white; 
+    font-size: 1.2em; 
+    font-weight: bold;
+}
+
+/* Social Media Section */
+.stay-connected {
+    margin-top: 50px;
+}
+
 .stay-connected h2 {
-    font-size: 1.0em; 
+    font-size: 1.5em; 
     font-weight: bold; 
     color: #6a0dad;
     text-shadow: 4px 4px #ffcc00;
+}
+
+.stay-connected a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.stay-connected a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background: #222;
+    color: white;
+    font-size: 14px;
 }
